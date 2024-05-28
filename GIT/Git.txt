@@ -1,10 +1,11 @@
 GIT
 
-git --version
-git init -> to initialize the git
-git status  -> to know the status
-rm -rf .git    -> to remove the .git file
-git init - b main
-git add file_name
-git log
-git commit -m "message"
+git --version                   -> to know the version
+git init                        -> to initialize the git
+git status                      -> to know the status
+rm -rf .git                     -> to remove the .git file
+git init - b main             
+git add file_name               -> to move the file from working directory to stagged area
+git log                         -> to know the history
+git commit -m "message"         -> to move the file from stagged area to commit area 
+git commit -a -m "message"      -> if you want to move the file directly from working area to commit area 
