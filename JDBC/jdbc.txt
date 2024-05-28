@@ -1,0 +1,28 @@
+1. import the package (java.sql.*)
+2.a load the driver     ->  mysql.connector , com.mysql.jdbc.driver
+2.b register the driver  -> class.forName("com.mysql.jdbc.driver")
+3. establish the connection  -> connection
+4. create the statement  -> normal statement, prepared statement and collable statement
+5. execute the query
+6. process result
+7. close
+
+
+
+jdbc
+
+
+1. import java.sql.*
+main()
+{
+   2.b-> class.forName("com.mysql.jdbc.Driver);
+   3->  connection con=DriverManager.getCOnnection("URL","UN","Password");
+   4->  statement st=con.createStatement();
+   5-> result rs= st.executeQuery("select * from statement");
+   6-> while(re.next())
+       {
+        System.out.println(rs.getInt(1)+ " " + re.getString(2));
+       }
+   7->  st.close();
+        con.close();    
+}
