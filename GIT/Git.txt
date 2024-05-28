@@ -1,0 +1,10 @@
+GIT
+
+git --version
+git init -> to initialize the git
+git status  -> to know the status
+rm -rf .git    -> to remove the .git file
+git init - b main
+git add file_name
+git log
+git commit -m "message"
