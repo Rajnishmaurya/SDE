@@ -21,3 +21,21 @@ git show tag_name              -> to see all the tag_name
 git push origin tag_name       -> to push the tag from working directory to commit area
 
 
+
+BRANCH
+
+git checkout -b branchname    -> to create a new BRANCH
+git branchname                -> to see all the branchname
+git branch                    -> to check in which branch you are working
+git switch branchname         -> switch to branchname
+git branch --all
+git switch -                  -> switch to previous branch
+git branch -d branchname      -> to delete the branchname
+
+
+
+MERGE
+
+git merge branchname        -> to merge the two branch  (it merge the branchname to the working branch)
+git pull origin main        -> if you want to merge two branch then first you have to pull that branch and then merge it
+
