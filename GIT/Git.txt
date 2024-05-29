@@ -11,3 +11,10 @@ git commit -m "message"         -> to move the file from stagged area to commit 
 git commit -a -m "message"      -> if you want to move the file directly from working area to commit area 
 git diff                        -> to know what changes you have made
 git rm --cached file_name       -> to delete the file from git
+git push origin main
+git remote -v
+
+
+git tag 
+git tag -a v1.0 -m "messase"
+git show tag_name              -> to see all the tag_name
