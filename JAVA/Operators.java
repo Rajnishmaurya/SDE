@@ -1,14 +1,11 @@
 public class Operators {
-    public static void main(String a[]) {
-        int num1=7;
-        int num2=5;
-        int result=num1+num2;
-        System.out.println(result);
+    public static void main(String[] args) {
+        int x=7;
+        int y=8;
+        boolean result=x<y;
+        System.err.println(result);
 
-        boolean result1=num1<num2;
-        System.out.println(result1);
-
-
-        S
+        boolean result1= x<=y;
+        System.err.println(result1);
     }
 }
